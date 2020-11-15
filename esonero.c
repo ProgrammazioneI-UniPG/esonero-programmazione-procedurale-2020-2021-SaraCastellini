@@ -47,7 +47,7 @@ int n;
 printf("messaggio cifratato è: ");
 for ( n=0 ; n< Ltesto ; n++) {
 chiave_finale[n]=testo[n]^chiave[n];                   //cifro il testo
-testo_dopo_cifratura[n]=chiave_finale[n]^chiave[n];    //verifico che la cfratura del testo sia avvenuta correttamente
+testo_dopo_cifratura[n]=chiave_finale[n]^chiave[n];    //verifico che la cifratura del testo sia avvenuta correttamente
 printf("%X", chiave_finale[n]);                        //stampo in esadecimale così da visualizzare nello schermo i caratteri speciali
 
 }
